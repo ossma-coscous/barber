@@ -200,7 +200,7 @@
     .top-section .img1,
     .top-section .img2 {
       width: 100%;
-      height: 220px;
+      height: 400px;
       margin: 0 auto;
     }
   
@@ -224,7 +224,7 @@
   
     .l {
       width: 100%;
-      min-height: 280px;
+      height: 400px;
       left: 0;
       margin: 0;
       position: relative;
@@ -232,7 +232,7 @@
    
     .bottom-images img {
       width: 80%;
-      height: 200px;
+      height: 290px;
       top: 40px;
       position: relative;
       margin: 0 auto;
@@ -275,12 +275,13 @@
   
     .top-section .img1,
     .top-section .img2 {
-      height: 200px;
+      height: 400px;
+      object-position: center top; /* Focus on the top center of the image (e.g., the face) */
     }
   
     .bottom-images img {
       width: 90%;
-      height: 180px;
+      height: 200px;
       width: 196px;
     }
   }
